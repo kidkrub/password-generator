@@ -249,7 +249,7 @@ function App() {
             />
           </div>
         )}
-        {(options.numeric || options.special) && (
+        {(options.numeric || options.special) && !options.custom && (
           <div className="mb-6">
             <h2 className="text-lg font-semibold text-gray-700 mb-3">
               Minimum Requirements
